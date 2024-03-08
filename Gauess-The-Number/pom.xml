@@ -8,8 +8,8 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ChitChat</groupId>
-	<artifactId>ChitChat-1</artifactId>
+	<groupId>com.GauessTheNumber</groupId>
+	<artifactId>Gauess-The-Number</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ChitChat-1</name>
 	<description>project for Spring Boot</description>
