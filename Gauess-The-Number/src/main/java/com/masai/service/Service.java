@@ -30,7 +30,7 @@ public class Service implements ServiceInterface{
 
      int randomNumber = random.nextInt(numb) + 1;
      number=randomNumber;
-     System.out.println(number);
+
 }
 	
 	@Override
@@ -56,8 +56,21 @@ public class Service implements ServiceInterface{
 		if(number==this.number) {
 
 			r.setGuessNumber(this.userName);
+			boolean b=true;
+			for (Responce existingResponce : map) {
+				 if (existingResponce.getGuessNumber().equals(this.userName)) {
+					 b=false;
+					 if(existingResponce.getAtempt()>totalAttempt) {
+					 existingResponce.setAtempt(totalAttempt);
+					 }
+					 
+				 }
+			}
+			
+			if(b) {
 			map.add(r);
-			System.out.println(map);
+			}
+			
 			 r.setResponceString("Done");
 			
 			 return r;
