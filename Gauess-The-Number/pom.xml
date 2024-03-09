@@ -11,7 +11,7 @@
 	<groupId>com.GauessTheNumber</groupId>
 	<artifactId>Gauess-The-Number</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ChitChat-1</name>
+	<name>Gauess-The-Number</name>
 	<description>project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
